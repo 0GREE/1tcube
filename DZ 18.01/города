@@ -1,0 +1,22 @@
+a=input("введите название города")
+b=input("введите название города")
+c=input("введите название города")
+
+h=len(a)
+m=len(b)
+n=len(c)
+
+if h>m and h>n:
+    print(a,"большее")
+elif m>h and m>n:
+    print(b,"большее")   
+elif n>h and n>m:
+    print(c,"большее")  
+
+if h<m and h<n:
+    print(a,"меньшее")
+elif m<h and m<n:
+    print(b,"меньшее")   
+elif n<h and n<m:
+    print(c,"меньшее")      
+
